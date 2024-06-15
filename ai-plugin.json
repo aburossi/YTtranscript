@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "YouTube Transcript Extractor",
+  "name_for_model": "youtube_transcript_extractor",
+  "description_for_human": "Extracts transcripts from YouTube videos.",
+  "description_for_model": "Extracts transcripts from YouTube videos using a provided URL.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://your-vercel-app.vercel.app/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://your-vercel-app.vercel.app/logo.png",
+  "contact_email": "contact@example.com",
+  "legal_info_url": "https://example.com/legal"
+}
