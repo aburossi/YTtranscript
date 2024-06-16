@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 
 app.use(cors());
 
-// Serve static files
+// Serve static files from the root directory
 app.use(express.static(path.join(__dirname)));
 
 // Endpoint to get the transcript
